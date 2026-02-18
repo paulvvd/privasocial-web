@@ -12,14 +12,19 @@ export default function SupportPage() {
       <p className="page-intro">
         Need help with your PrivaSocial account? We are here to help. Contact
         us at{" "}
-        <a href="mailto:support@privasocial.app">support@privasocial.app</a>.
+        <a href="mailto:support@privacy-social.com">
+          support@privacy-social.com
+        </a>
+        .
       </p>
 
       <section>
         <h2>Account deletion &amp; data requests</h2>
         <p>
           To request account deletion, data access, or data correction, email{" "}
-          <a href="mailto:support@privasocial.app">support@privasocial.app</a>{" "}
+          <a href="mailto:support@privacy-social.com">
+            support@privacy-social.com
+          </a>{" "}
           from the address associated with your account.
         </p>
       </section>

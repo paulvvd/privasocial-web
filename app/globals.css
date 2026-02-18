@@ -320,6 +320,56 @@ h1 {
   font-size: 0.95rem;
 }
 
+.policy-page {
+  width: min(920px, 100%);
+  margin: 0 auto;
+  padding: 2.25rem;
+}
+
+.policy-header {
+  padding: 0 0 1rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.15rem;
+}
+
+.policy-lead {
+  color: #3e4962;
+  max-width: 72ch;
+}
+
+.policy-section {
+  padding: 0.9rem 0 0.65rem;
+}
+
+.policy-page h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.24rem;
+  letter-spacing: -0.01em;
+}
+
+.policy-page h3 {
+  margin: 0.95rem 0 0.4rem;
+  font-size: 1.02rem;
+  color: #293653;
+}
+
+.policy-page ul {
+  margin: 0.35rem 0 0.9rem 1.2rem;
+}
+
+.policy-page li {
+  margin: 0.2rem 0;
+}
+
+.policy-end {
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   background: color-mix(in srgb, var(--surface) 95%, #faf8ff 5%);
@@ -367,6 +417,15 @@ h1 {
   .hero,
   .page {
     padding: 1.4rem;
+  }
+
+  .policy-page {
+    padding: 1.4rem;
+  }
+
+  .policy-header {
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.8rem;
   }
 
   .hero-pills {
